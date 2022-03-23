@@ -5,9 +5,8 @@ public class HomeWork {
         // Задание 1
         System.out.println(homeWork.checkSum(10, 5));
         // Задание 2
-        System.out.println(homeWork.isPositive(-1) ? "Положительное число" : "Отрицательное число");
+        homeWork.positivePrint(-1);
         // Задание 3
-        // Метод из задания 2
         boolean positive = homeWork.isPositive(-24);
         System.out.printf("%b\n", positive);
         // Задание 4
@@ -22,6 +21,10 @@ public class HomeWork {
     private boolean checkSum(int a, int b) {
         int c = a + b;
         return c >= 10 && c <= 20;
+    }
+
+    private void positivePrint(int a) {
+        System.out.println(isPositive(-1) ? "Положительное число" : "Отрицательное число");
     }
 
     private boolean isPositive(int a) {
