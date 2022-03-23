@@ -9,7 +9,7 @@ public class HomeWork {
         // Задание 3
         // Метод из задания 2
         boolean positive = homeWork.isPositive(-24);
-        System.out.printf("%b\n%n", positive);
+        System.out.printf("%b\n", positive);
         // Задание 4
         homeWork.repeatString("Домашнее-задание", 5);
         // Задание 5
